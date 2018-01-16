@@ -66,7 +66,7 @@ export default {
   },
   methods:{
     displayMap:function(lat, long){
-      $(".inline-map").attr('src', 'https://maps.googleapis.com/maps/api/staticmap?center=' + lat + ',' + long + '&zoom=13&size=600x300')
+      $(".inline-map").attr('src', 'https://maps.googleapis.com/maps/api/staticmap?center=' + lat + ',' + long + '&zoom=13&size=600x300&key=AIzaSyD3dSrEZE1YVasxOKmv2Cp6ES3bsCYDjr0')
     }
   }
 }
